@@ -1,0 +1,33 @@
+[submodule "addWrite"]
+	path = addWrite
+	url = R:/Pipe_Repo/Projects/repos/addWrite/
+[submodule "autoSave"]
+	path = autoSave
+	url = R:/Pipe_Repo/Projects/repos/autoSave/
+[submodule "createArchive"]
+	path = createArchive
+	url = R:/Pipe_Repo/Projects/repos/createArchive/
+[submodule "errorNodes"]
+	path = errorNodes
+	url = R:/Pipe_Repo/Projects/repos/errorNodes
+[submodule "redToDefault"]
+	path = redToDefault
+	url = R:/Pipe_Repo/Projects/repos/redToDefault/
+[submodule "renderWrite"]
+	path = renderWrite
+	url = R:/Pipe_Repo/Projects/repos/renderWrite/
+[submodule "replaceCamera"]
+	path = replaceCamera
+	url = R:/Pipe_Repo/Projects/repos/replaceCamera/
+[submodule "replaceReadPath"]
+	path = replaceReadPath
+	url = R:/Pipe_Repo/Projects/repos/replaceReadPath/
+[submodule "replaceRenderLayer"]
+	path = replaceRenderLayer
+	url = R:/Pipe_Repo/Projects/repos/replaceRenderLayer
+[submodule "rereadFrameRange"]
+	path = rereadFrameRange
+	url = R:/Pipe_Repo/Projects/repos/rereadFrameRange
+[submodule "startup"]
+	path = startup
+	url = R:/Pipe_Repo/Projects/repos/startup
