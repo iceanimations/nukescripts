@@ -1,0 +1,7 @@
+*.pyc 
+env/
+scratch/
+.ycm_extra_conf.py
+tags
+tacticobjects
+TACTIC
