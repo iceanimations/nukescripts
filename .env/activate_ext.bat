@@ -1,0 +1,5 @@
+set NUKE_VERSION=8.0v5
+set "NUKE_LOCATION=c:\Program Files\Nuke%NUKE_VERSION%"
+set "PATH=%MAYA_LOCATION%;%PATH%"
+set "DOT_NUKE=%USERPROFILE%\.nuke"
+set "NUKEMENUPY"="%DOT_NUKE%\menu.py"

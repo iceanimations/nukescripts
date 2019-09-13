@@ -1,5 +1,11 @@
 import nuke
 
+import sip
+sip.setapi('QString', 2)
+
+import nukeMenuCommands
+reload(nukeMenuCommands)
+
 from nukeMenuCommands import (
         replaceReadPaths,
         fromRedToDefault,
