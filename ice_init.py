@@ -1,6 +1,5 @@
 import os
 import sys
-import logging
 
 
 nuke_dir = os.path.join(os.path.expanduser('~'), '.nuke')
@@ -13,12 +12,6 @@ sys.path.append('r:/Python_Scripts/Nuke')
 sys.path.append('r:/Python_Scripts/plugins')
 sys.path.append('r:/Python_Scripts/plugins/utilities')
 sys.path.append('r:/Python_Scripts/maya2014/PyQt')
-
-try:
-    import sip
-    sip.setapi('QString', 2)
-except ImportError:
-    pass
 
 import startup
 startup.setupNuke()
