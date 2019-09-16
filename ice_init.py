@@ -1,13 +1,10 @@
 import os
 import sys
 
-
-nuke_dir = os.path.join(os.path.expanduser('~'), '.nuke')
-log_path = os.path.join(nuke_dir, 'startuplog.txt')
-
 __dir__ = os.path.abspath(os.path.dirname(__file__))
-sys.path.insert(0, __dir__)
+os.environ['QT_PREFERRED_BINDING'] = 'PyQt4'
 
+sys.path.insert(0, __dir__)
 sys.path.append('r:/Python_Scripts/Nuke')
 sys.path.append('r:/Python_Scripts/plugins')
 sys.path.append('r:/Python_Scripts/plugins/utilities')

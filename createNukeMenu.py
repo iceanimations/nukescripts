@@ -1,6 +1,6 @@
 import nuke
-import nukeMenuCommands
 
+import nukeMenuCommands
 reload(nukeMenuCommands)
 
 from nukeMenuCommands import (
@@ -19,7 +19,6 @@ from nukeMenuCommands import (
         )
 
 import startup
-
 startup.setupNuke()
 
 # add new script to the following dict

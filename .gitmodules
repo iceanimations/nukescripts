@@ -35,5 +35,5 @@
 	path = utilities
 	url = R:/Pipe_Repo/Projects/repos/utilities/
 [submodule "iutilities"]
-	path = iutilities
+	path = iutil
 	url = R:/Pipe_Repo/Users/Hussain/repo/iutilities/

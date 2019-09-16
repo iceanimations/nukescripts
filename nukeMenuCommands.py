@@ -1,6 +1,8 @@
-import createNukeMenu
-import nuke
 import sys
+
+import nuke
+
+import createNukeMenu
 
 
 def replaceReadPaths():
