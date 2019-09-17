@@ -1,8 +1,11 @@
 import os
 import sys
+import nuke
 
 __dir__ = os.path.abspath(os.path.dirname(__file__))
-os.environ['QT_PREFERRED_BINDING'] = 'PyQt4'
+
+if nuke.NUKE_VERSION_MAJOR < 9:
+    os.environ['QT_PREFERRED_BINDING'] = 'PyQt4'
 
 sys.path.insert(0, __dir__)
 sys.path.append('r:/Python_Scripts/Nuke')
