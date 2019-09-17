@@ -1,5 +1,5 @@
 #!/bin/bash
-dpath=$1
+dpath=${1%/}
 
 if test -z $dpath; then
     >&2 echo "Error: Must provide a deployment path"
@@ -55,7 +55,7 @@ fi
 
 echo "
 import site
-site.addsitedir(r'$ppath')
+site.addsitedir(r'${ppath}')
 try:
     import ice_init
 except ImportError:
