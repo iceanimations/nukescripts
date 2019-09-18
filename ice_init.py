@@ -10,8 +10,10 @@ sys.path.append('r:/Python_Scripts/plugins')
 sys.path.append('r:/Python_Scripts/plugins/utilities')
 
 if nuke.NUKE_VERSION_MAJOR < 9:
-    os.environ['QT_PREFERRED_BINDING'] = 'PyQt4'
+    os.environ['QT_PREFERRED_BINDING'] = os.pathsep.join(
+            ['PyQt4', 'PyQt5', 'PySide', 'PySide2'])
     sys.path.append('r:/Python_Scripts/maya2014/PyQt')
+
 
 import startup
 startup.setupNuke()

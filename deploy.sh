@@ -17,11 +17,8 @@ if [ "$OS" == "Windows_NT" ]; then
     venv_path=$(cygpath $VIRTUAL_ENV)
 fi
 
-echo "copying Qt.py to $dpath..."
-cp $venv_path/Lib/site-packages/Qt.py $dpath
-
-
 myfiles=(\
+    Qt.py\
     createNukeMenu.py\
     ice_init.py\
     ice_menu.py\
